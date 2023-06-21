@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Roboto:wght@500&family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto', sans-serif;
+}
+
+.main-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-image: url("https://img.freepik.com/free-photo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-header-sidebar-graphic-art-image_1258-88596.jpg?w=740&t=st=1666529394~exp=1666529994~hmac=3d26665728112c0e6a72b5c16441c765eb947e3820d1ed7b8bd82ee6f825b896");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.top-bar{
+    height: 70px;
+    /*border: 1px solid red;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.counter-outer, .statistic-outer{
+    height: 60px;
+    background-color: white;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+.q-number-outer{
+    width: 60px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.question-number{
+    color: #d35400;
+    margin: 0;
+}
+.sep{
+    width: 1px;
+    background-color: #bdc3c7;
+    height: 90%;
+}
+.time-wrapper{
+    flex: 1;
+    /*border: 1px solid red;*/
+}
+.time{
+    text-align: right;
+    padding: 0 10px;
+    color: #d35400;
+    margin: 0;
+}
+.time span{
+    color: #2980b9;
+}
+.statistic-outer{
+    padding: 0 10px;
+}
+.statistics{
+    padding: 0 10px;
+    color: #d35400;
+    margin: 0;
+}
+.start-button{
+    height: 60px;
+    margin: 0 20px;
+}
+.player-wrapper{
+    flex: 1;
+    /*border: 1px solid red;*/
+    padding-left: 20px;
+    display: flex;
+}
+.user{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user>img{
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.details{
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+}
+.playground{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.bottom-outer{
+    width: 100%;
+    /* border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.bottom-outer>h5{
+    color: white;
+    padding: 0 20px;
+}
+.question{
+    text-align: center;
+    color: #2980b9;
+}
+.answer-outer{
+    margin-top: 50px;
+}
+.congrats{
+    text-align: center;
+    color: #2980b9;
+    margin-top: 30px;
+}
